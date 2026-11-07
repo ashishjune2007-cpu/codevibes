@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Code Vibe</title>
+    
+    <!-- Preconnect Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Typography: Space Grotesk, Inter, JetBrains Mono -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Google Material Symbols Outlined -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  </head>
+  <body class="bg-background font-body-md text-body-md text-on-surface antialiased overflow-x-hidden selection:bg-primary-container selection:text-white min-h-screen">
+    <!-- Netlify Forms detection form. Keep this in the built HTML so Netlify can register it. -->
+<form name="collaborator-intake" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="hidden" name="form-name" value="collaborator-intake" />
+  <input name="bot-field" />
+  <input name="fullName" />
+  <input name="email" />
+  <input name="github" />
+  <input name="discord" />
+  <input name="portfolio" />
+  <input name="role" />
+  <input name="experience" />
+  <input name="location" />
+  <input name="skills" />
+  <input name="goals" />
+  <input name="availability" />
+  <input name="communicationPref" />
+  <textarea name="bio"></textarea>
+  <textarea name="featuredWork"></textarea>
+  <input name="agreedToConduct" />
+</form>
+<div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
